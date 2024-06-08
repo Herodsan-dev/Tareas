@@ -1,0 +1,46 @@
+body {
+    background-color: #021C1E;
+}
+
+.content {
+    /*display: flex;
+    justify-content: center;
+    background-color: #021C1E;*/
+    width: 500px;
+    height: 860px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #79f1e9;
+    border-radius: 20px;
+    padding: 10px;
+    transition: background 0.5s;
+}
+
+.content:hover {
+    background-color: #9feec1;
+}
+
+.foto {
+    border-radius: 50%;
+    position: absolute;
+    right: 450px;
+    width: 90px;
+    height: 90px;
+}
+
+.name {
+    display: inline;
+}
+
+.enlace {
+    display: inline-block;
+    padding: 5px;
+}
+
+.contacto {
+    text-decoration: none;
+}
+
+input {
+    margin: 5px;
+}
